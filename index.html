@@ -4,110 +4,178 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Karan Gajjar | Full-Stack Developer</title>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
   <style>
-    body { font-family: Calibri, sans-serif; background: #f8f9fa; }
-    .hero { background: linear-gradient(135deg, #1F3A5F, #2c5282); color: white; padding: 80px 0; }
-    .section-title { font-weight: 600; margin-bottom: 30px; }
-    .card { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-    .badge-skill { background: #1F3A5F; color: #fff; margin: 4px; }
-    .footer { background: #1F3A5F; color: white; padding: 20px 0; }
+    body { font-family: Calibri, sans-serif; background: #f5f7fb; }
+
+    .navbar { background: #0f172a; }
+    .navbar a { color: #fff !important; }
+
+    .hero {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 120px 0;
+    }
+
+    .hero h1 { font-size: 48px; }
+
+    .btn-custom {
+      background: #2563eb;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 25px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .card {
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: 0.3s;
+      height: 100%;
+    }
+
+    .card:hover { transform: translateY(-8px); }
+
+    .badge-skill {
+      background: #e0e7ff;
+      color: #1e3a8a;
+      margin: 6px;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    .contact-btn {
+      margin: 10px;
+    }
+
+    .footer {
+      background: #0f172a;
+      color: white;
+      padding: 20px 0;
+    }
   </style>
 </head>
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="#">Karan Gajjar</a>
+  </div>
+</nav>
+
 <!-- HERO -->
 <section class="hero text-center">
   <div class="container">
-    <h1 class="fw-bold">Karan Gajjar</h1>
-    <p class="lead">Full-Stack Developer | PHP | Laravel | REST APIs</p>
-    <p>📍 Surat, Gujarat | Open to Remote & Relocation</p>
-    <p>
-      <a href="mailto:gajjer13@gmail.com" class="text-white me-3">📧 Email</a>
-      <a href="https://linkedin.com/in/karan-gajjar-916569213" class="text-white me-3">🔗 LinkedIn</a>
-      <a href="https://github.com/karangajjar0512" class="text-white">💻 GitHub</a>
-    </p>
+    <h1 class="fw-bold">Hi, I'm Karan 👋</h1>
+    <h3 class="mt-2">Full-Stack Developer</h3>
+    <p class="lead">PHP | Laravel | REST APIs</p>
+    <p>Building scalable, high-performance applications with clean architecture.</p>
+
+    <div class="mt-4">
+      <a href="mailto:gajjer13@gmail.com" class="btn btn-custom contact-btn">
+        <i class="fa fa-envelope"></i> Say Hello
+      </a>
+      <a href="tel:+919978540717" class="btn btn-outline-light contact-btn">
+        <i class="fa fa-phone"></i> Call Me
+      </a>
+      <a href="https://github.com/karangajjar0512" class="btn btn-outline-light contact-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
   </div>
 </section>
 
-<!-- SUMMARY -->
+<!-- ABOUT -->
 <section class="py-5">
   <div class="container">
-    <h2 class="section-title">Professional Summary</h2>
-    <p>
-      Experienced Full-Stack Web Developer with 3.5+ years of expertise in PHP and Laravel, focused on building scalable web applications and RESTful APIs.
-      Skilled in performance optimization, database design, and third-party integrations such as Stripe, PayPal, and Twilio.
-      Proven ability to deliver high-quality, business-driven solutions and collaborate with international teams.
+    <h2 class="section-title">About Me</h2>
+    <p class="text-center">
+      Experienced Full-Stack Web Developer with 3.5+ years in PHP and Laravel, delivering scalable systems, REST APIs, and optimized web applications.
+      Proven ability to improve performance by 25–35% and build business-focused solutions across CRM, e-commerce, and booking platforms.
     </p>
   </div>
 </section>
 
 <!-- SKILLS -->
-<section class="py-5 bg-light">
+<section class="py-5 bg-light text-center">
   <div class="container">
-    <h2 class="section-title">Technical Skills</h2>
+    <h2 class="section-title">Tech Stack</h2>
 
-    <h6>Backend</h6>
     <span class="badge badge-skill">PHP</span>
     <span class="badge badge-skill">Laravel</span>
-
-    <h6 class="mt-3">Frontend</h6>
-    <span class="badge badge-skill">HTML5</span>
-    <span class="badge badge-skill">CSS3</span>
-    <span class="badge badge-skill">Bootstrap</span>
     <span class="badge badge-skill">JavaScript</span>
-
-    <h6 class="mt-3">Database</h6>
     <span class="badge badge-skill">MySQL</span>
     <span class="badge badge-skill">PostgreSQL</span>
-
-    <h6 class="mt-3">Tools & APIs</h6>
     <span class="badge badge-skill">REST APIs</span>
     <span class="badge badge-skill">Stripe</span>
     <span class="badge badge-skill">PayPal</span>
     <span class="badge badge-skill">Twilio</span>
     <span class="badge badge-skill">Git</span>
-    <span class="badge badge-skill">Postman</span>
   </div>
 </section>
 
 <!-- PROJECTS -->
 <section class="py-5">
   <div class="container">
-    <h2 class="section-title">Key Projects</h2>
+    <h2 class="section-title">Featured Projects</h2>
     <div class="row g-4">
 
-      <div class="col-md-6">
-        <div class="card p-3">
+      <div class="col-md-4">
+        <div class="card p-4">
           <h5>MBS CRM APIs</h5>
-          <p>Developed secure REST APIs with token-based authentication, improving system scalability and reducing database dependency.</p>
-          <small>Tech: PHP, MySQL</small>
+          <p>Built secure REST APIs with token authentication, improving scalability and reducing dependency on direct DB access.</p>
+          <small>PHP | MySQL</small>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="card p-3">
-          <h5>Fete Finder Platform</h5>
-          <p>Built full-stack event platform with Stripe payment integration and scalable booking workflows.</p>
-          <small>Tech: Laravel, MySQL, Stripe</small>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5>Fete Finder</h5>
+          <p>Developed event booking platform with Stripe integration, improving booking efficiency and transactions.</p>
+          <small>Laravel | Stripe</small>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="card p-3">
+      <div class="col-md-4">
+        <div class="card p-4">
           <h5>SmartCommercial</h5>
-          <p>Developed commercial property portal with advanced search, listings, and user accounts.</p>
-          <small>Tech: PHP, MySQL</small>
+          <p>Created property portal with advanced filtering and listing management system.</p>
+          <small>PHP | MySQL</small>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="card p-3">
+      <div class="col-md-4">
+        <div class="card p-4">
           <h5>ShiftFinder APIs</h5>
-          <p>Created scalable API system for healthcare shift management and real-time job listings.</p>
-          <small>Tech: Laravel, MySQL</small>
+          <p>Developed healthcare APIs supporting real-time job listings and scalable integrations.</p>
+          <small>Laravel</small>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5>Tyretek</h5>
+          <p>Built responsive website with SEO optimization and improved performance.</p>
+          <small>PHP | SEO</small>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-4">
+          <h5>Grimston Garages</h5>
+          <p>Delivered full-stack business website with strong SEO and optimized performance.</p>
+          <small>PHP | MySQL</small>
         </div>
       </div>
 
@@ -118,46 +186,34 @@
 <!-- EXPERIENCE -->
 <section class="py-5 bg-light">
   <div class="container">
-    <h2 class="section-title">Professional Experience</h2>
+    <h2 class="section-title">Experience</h2>
 
     <div class="mb-4">
       <h5>Senior PHP Developer - WTS Technologies</h5>
-      <p>Apr 2025 – Apr 2026</p>
-      <ul>
-        <li>Optimized backend performance, reducing response time by 30%</li>
-        <li>Developed scalable REST APIs and integrated third-party services</li>
-        <li>Collaborated with UK clients and mentored junior developers</li>
-      </ul>
+      <p>Improved performance by 30–35%, developed APIs, optimized systems, and collaborated with UK clients.</p>
     </div>
 
     <div class="mb-4">
       <h5>Senior Laravel Developer - iRoid Solutions</h5>
-      <p>Dec 2022 – Apr 2025</p>
-      <ul>
-        <li>Delivered CRM, e-commerce, and booking systems</li>
-        <li>Improved system performance by 25% through query optimization</li>
-        <li>Integrated Stripe, PayPal, and Twilio APIs</li>
-      </ul>
+      <p>Delivered CRM, booking, and e-commerce systems with 25% performance improvements.</p>
     </div>
 
     <div>
-      <h5>Software Developer - Squad Tech Pvt. Ltd.</h5>
-      <p>Mar 2022 – Nov 2022</p>
-      <ul>
-        <li>Developed backend modules and fixed critical bugs</li>
-        <li>Improved application stability and performance</li>
-      </ul>
+      <h5>Software Developer - Squad Tech</h5>
+      <p>Worked on backend modules, debugging, and system enhancements.</p>
     </div>
 
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="py-5">
-  <div class="container text-center">
-    <h2 class="section-title">Contact</h2>
-    <p>Email: gajjer13@gmail.com</p>
-    <p>Phone: +91 9978540717</p>
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="section-title">Let's Connect</h2>
+    <p>Feel free to reach out for opportunities or collaboration.</p>
+
+    <a href="mailto:gajjer13@gmail.com" class="btn btn-custom contact-btn">Email Me</a>
+    <a href="tel:+919978540717" class="btn btn-outline-dark contact-btn">Call Me</a>
   </div>
 </section>
 
