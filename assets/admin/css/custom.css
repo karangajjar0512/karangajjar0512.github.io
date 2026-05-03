@@ -167,11 +167,8 @@
 }
 
 @media (max-width: 749px) {
-    #profile {
-        margin-top: 60px;
-    }
-
     .profile-img {
         width: 240px !important;
+        height: auto !important;
     }
 }
