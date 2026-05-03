@@ -175,9 +175,3 @@
         width: 240px !important;
     }
 }
-
-@media (max-width: 549px) {
-    #profile {
-        margin-top: 0px !important;
-    }
-}
