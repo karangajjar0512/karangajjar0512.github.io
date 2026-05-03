@@ -139,3 +139,35 @@
 .project-swiper .swiper-pagination {
     bottom: 0px !important;
 }
+
+
+@media (max-width: 1899px) {
+    .job-hero-section {
+        min-height: 95vh;
+    }
+}
+
+@media (max-width: 1749px) {
+    .job-hero-section {
+        min-height: 80vh;
+    }
+}
+
+@media (max-width: 1449px) {
+    .job-hero-section {
+        min-height: 60vh;
+        background-position: top;
+    }
+}
+
+@media (max-width: 989px) {
+    #profile {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 749px) {
+    #profile {
+        margin-top: 90px;
+    }
+}
