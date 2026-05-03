@@ -165,4 +165,8 @@
         width: 240px !important;
         height: auto !important;
     }
+
+    .section {
+        padding: 90px 0 !important;
+    }
 }
